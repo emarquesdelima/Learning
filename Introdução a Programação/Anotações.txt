@@ -1,0 +1,28 @@
+e-mail do professor: artur.adam@caelum.com
+Twitter: @artdiniz
+
+Exercício 1:
+- Programa que calcule o IMC
+
+"O seu IMC é: "
+
+Peso / Altura ^2
+
+Altura: 1.8
+Peso: 74
+
+______________________
+Exercício 2:
+
+**TELA**
+________
+Uber vs Carro
+
+Uber:
+Total: R$xx,xx
+
+Carro:
+Gasolina: R$xx,xx
+Estacionamento: R$xx,xx
+Total: R$xx,xx
+_______________

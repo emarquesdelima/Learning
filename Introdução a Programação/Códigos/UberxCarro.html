@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<script>
+    //Variáveis
+    //Vindas do Usuário
+    var distancia = parseFloat(prompt("Digite a Distância do Destino"))
+    var estacionamento = parseFloat(prompt("Digite o Valor do Estacionamento"))
+    //Pré-definidas
+    var velMed = 25
+    var precoLit = 3.99
+    var autonomia = 9
+    var precoDistUber = 1.4
+    var precoTempUber = 0.26
+    var minemhora = 60
+    //Calculadas    
+    var tempo = distancia/velMed*minemhora
+    var custoDistUber = distancia*precoDistUber
+    var custoDistCarro = distancia/autonomia*precoLit
+    var custoTempoUber = tempo*precoTempUber
+    var totalUber = custoDistUber+custoTempoUber
+    var totalCarro = custoDistCarro+estacionamento
+    //Exibição
+    document.write(`
+    <title>Uber x Carro</title>
+    <h1>Uber vs Carro</h1><br><br>
+    Uber:<br>
+    Total: R$ ${totalUber.toFixed(2)}<br><hr>
+    Carro:<br>
+    Gasolina: R$ ${custoDistCarro.toFixed(2)}<br>
+    Estacionamento: R$ ${estacionamento.toFixed(2)}<br>
+    Total: R$ ${totalCarro.toFixed(2)}
+    `)    
+</script>

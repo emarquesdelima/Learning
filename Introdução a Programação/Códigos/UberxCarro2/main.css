@@ -1,0 +1,22 @@
+h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    width: 100%
+}
+#borderCol {
+    width: 20%
+}
+#midCol {
+    width: 60%;
+    background: lightgray;
+}
